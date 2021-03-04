@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .no-js .nav-navigation {
+    display: block;
+    position: relative;
+  }
+}
+
+.no-js .icons {
+  max-height: unset;
+}
+
+.no-js .small-context-menu {
+  display: none;
+}

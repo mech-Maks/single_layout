@@ -1,0 +1,37 @@
+.open-menu .small-context-menu {
+	background-image: url("../img/context_menu_close.png");
+}
+
+.open-menu .nav-navigation {
+	display: block;
+	z-index: 3;	
+
+	width: 490px;
+	margin-top: 80px;
+}
+
+.open-menu .navigation {
+	padding-left: 20px;
+}
+
+@media (max-width: 490px) {
+    .open-menu .nav-navigation {
+        display: block;	
+        margin-top: 55px;
+    
+        max-width: 320px;
+      }
+      .open-menu .navigation {
+        width: 295px;
+        max-width: 295px;
+        padding-left: 25px;
+      }
+    
+      .open-menu .navigation li {
+        width: 270px;
+      }
+    
+      .open-menu .nav-navigation {
+        width: 320px;
+      }
+}

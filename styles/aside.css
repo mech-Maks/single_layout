@@ -1,0 +1,19 @@
+.right-column {
+	max-width: 250px;
+}
+	
+	.right-column-img {		
+		margin-bottom: 20px;
+		height: 400px;
+	}
+
+	.right-column-img-last {
+		height: 426px;
+		max-width: 250px;
+	}
+
+	@media (min-height: 1024px) {
+		.right-column-img {
+			display: unset;
+		}
+	}
